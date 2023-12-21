@@ -1,0 +1,257 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+boby {font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+input{
+  width: 554px;
+  height: 74px;
+  color: rgba(0, 0, 0, 0.61);
+  font-weight: 500;
+  line-height: normal;
+  border: 1px solid #C1BBBB;
+  background: #FFF;
+  padding-left: 25px;
+}
+.circle{
+  position: absolute;
+  z-index: 1;
+  width: 534px;
+  height: 534px;
+  border-radius: 50%;
+  background: #f7faff;
+  box-shadow: 0px 4px 70px 6px rgba(217,229,255,0.25);
+}
+.form-title{
+  color: #3751FE;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 87px;
+  margin-bottom: 109px;
+}
+.form-title--text{
+  color: #3751FE;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 28px;
+}
+.form-title--welcom{
+  color: rgba(0, 0, 0, 0.60);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 65px;
+}
+.register-form-container{
+  position: relative;
+  z-index: 2;
+  max-width: 662px;
+  height: 1024px;
+  background: #FFF;
+  padding-left: 89px;
+  padding-right: 89px;
+}
+.button {
+  position: absolute;
+  display:block;
+  width: 129px;
+  height: 54px;
+  flex-shrink: 0;
+  background: #3751FE;
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 53px;
+  cursor: pointer;
+  margin-bottom: 34px;
+}
+.button:hover {
+  background-color: #6577f1;
+}
+a.button{
+  text-decoration: none;
+}
+.form-buttonssing {
+  margin-left: 173px;
+  border: 1px solid #3751FE;
+  background: #FFF;
+  display:block;
+  width: 129px;
+  height: 54px;
+  flex-shrink: 0;
+  background: #ffffff;
+  box-shadow: 0px 4px 3px 0px rgba(0, 0, 0, 0.25);
+  color: #0C31F1;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 53px;
+  cursor: pointer;
+  margin-bottom: 34px;
+}
+.form-buttonssing:hover {
+  background-color: #E2E6F0;
+  color: #FFF;
+}
+.form-fieldd {
+  margin-bottom: 114px;
+}
+.Remember{
+  position: relative;
+  color: rgba(0, 0, 0, 0.61);
+  margin-left: 169px;
+  z-index: 3;
+  margin-top: -400px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Forgot{
+  position: relative;
+  margin-left: 499px;
+  z-index: 3;
+  margin-top: -23px;
+  color: rgba(0, 0, 0, 0.61);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.login{
+  position: relative;
+  margin-left: 89px;
+  z-index: 3;
+  margin-top: 195px;
+  color: rgba(0, 0, 0, 0.61);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.Facebook{
+  position: relative;
+  margin-left: 300px;
+  z-index: 3;
+  margin-top: -23px;
+  color: #3751FE;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.LinkedIn{
+  position: relative;
+  margin-left: 448px;
+  z-index: 3;
+  margin-top: -23px;
+  color: #3751FE;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.Google{
+  position: relative;
+  margin-left: 580px;
+  z-index: 3;
+  margin-top: -23px;
+  color: #3751FE;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+  .box {
+    position: relative;
+    margin-left: 140px;
+    z-index: 3;
+    margin-top: -230px;
+    width: 13px;
+    height: 13px;
+    flex-shrink: 0;
+    border: 1px solid #E5E5E5;
+    background: #FFF;
+  }
+  .Home{
+    position: relative;
+    margin-left: 850px;
+    z-index: 3;
+    margin-top: -630px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .About{
+    position: relative;
+    margin-left: 960px;
+    z-index: 3;
+    margin-top: -29px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .Blog{
+    position: relative;
+    margin-left: 1090px;
+    z-index: 3;
+    margin-top: -27px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .Pricing{
+    position: relative;
+    margin-left: 1180px;
+    z-index: 3;
+    margin-top: -27px;
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .boxs {
+    position: relative;
+    margin-left: 645px;
+    z-index: 1;
+    margin-top: -60px;
+    width: 778px;
+    height: 1024px;
+    flex-shrink: 0;
+    background: rgba(229, 229, 229, 0.41);    
+  }
+.Handwriting {
+  position: relative;
+  margin-left: 847px;
+  z-index: 1;
+  margin-top: -969px;
+  width: 69px;
+  height: 3px;
+  background: #0C31F1;
+}
