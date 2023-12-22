@@ -13,80 +13,102 @@
     <title>Вёрстка</title>
   </head>
   <body>
-
-<main>
-  <div class="circle"></div>
-  <div class="register-form-container">
-    <h1 class="form-title">
-      Digital
-    </h1>
-    <h1 class="form-title--text">
-      Artificial Intelligence Driving
-      Results For The Travel Industry
-    </h1>
-    <h1 class="form-title--welcom">
-      Welcome back! Please login to your account.
-    </h1>
-    <div class="form-fields">
-      <div class="form-field">
-        <input type="Email" placeholder="Email Address">
+    <main>
+      <div class="circle"></div>
+      <div class="register-form-container">
+        <h1 class="form-title">
+          Digital
+        </h1>
+        <h1 class="form-title--text">
+          Artificial Intelligence Driving
+          Results For The Travel Industry
+        </h1>
+        <h1 class="form-title--welcom">
+          Welcome back! Please login to your account.
+        </h1>
+        <div class="form-fields">
+          <div class="form-field">
+            <input type="email" id="emailInput" placeholder="Email Address">
+            <p id="emailError" style="color: red;"></p>
+          </div>
+          <div class="form-field">
+            <input type="password" id="passwordInput" placeholder="Password">
+            <p id="passwordError" style="color: red;"></p>
+          </div>
+        </div>
+        <div class="form-buttons">
+          <buttton class="button" onclick="validateCredentials()">Login</buttton>
+        </div>
+        <div class="form-buttonssing">
+          <buttton class="buttons">Sing Up</buttton>
+        </div>
       </div>
-      <div class="form-fieldd">
-        <input type="Password" placeholder="Password">
-      </div>
+    </main>
+    <body>
+      <div class="Remembers">
+        <h1 class="Remember">
+          Remember Me
+        </h1>
+      <div class="Forgots">
+        <h1 class="Forgot">
+          Forgot Password?
+        </h1>
+      <div class="log">
+        <h1 class="login">
+          Or login with
+        </h1>
+      <div class="social">
+        <a class="Facebook" href="https://www.facebook.com/">Facebook</a>
+        <a class="LinkedIn" href="https://ru.linkedin.com/">LinkedIn</a>
+        <a class="Google" href="https://www.google.com/">Google</a>
     </div>
-    <div class="form-buttons">
-      <buttton class="button" onclick="validateEmail()">Login</buttton>
-    </div>
-    <div class="form-buttonssing">
-      <buttton class="buttons">Sing Up</buttton>
-    </div>
-  </div>
-  
-</main>
-  </body>
-  <body>
-  <div class="Remembers">
-    <h1 class="Remember">
-      Remember Me
-    </h1>
-  <div class="Forgots">
-    <h1 class="Forgot">
-      Forgot Password?
-    </h1>
-  <div class="log">
-    <h1 class="login">
-      Or login with
-    </h1>
-  <div class="social">
-    <a class="Facebook" href="https://www.facebook.com/">Facebook</a>
-    <a class="LinkedIn" href="https://ru.linkedin.com/">LinkedIn</a>
-    <a class="Google" href="https://www.google.com/">Google</a>
-</div>
-    <input type="checkbox" class="box"></input>
+        <input type="checkbox" class="box"></input>
+    
+      <img src="clip-message-sent.png" alt="Описание изображения" style="
+      width: 839px;
+      height: 428px;
+      position: relative;
+      margin-left: 600px;
+      z-index: 3;
+      margin-top: -472px;
+      top: -212px;
+      left: -138px;
+    ">
+      <div class="cap">
+        <h1 class="Home">Home</h1>
+        <h1 class="About">About us</h1>
+        <h1 class="Blog">Blog</h1>
+        <h1 class="Pricing">Pricing</h1>
+        </div>
+      <body>
+        <div class="boxs"></div>
+      </body>
+      <body>
+        <div class="Handwriting"></div>
+        <script src="script.js"></script>
+      </body>
+    </html>
 
-  <img src="clip-message-sent.png" alt="Описание изображения" style="
-  width: 839px;
-  height: 428px;
-  position: relative;
-  margin-left: 600px;
-  z-index: 3;
-  margin-top: -472px;
-  top: -212px;
-  left: -138px;
-">
-  <div class="cap">
-    <h1 class="Home">Home</h1>
-    <h1 class="About">About us</h1>
-    <h1 class="Blog">Blog</h1>
-    <h1 class="Pricing">Pricing</h1>
-    </div>
-  <body>
-    <div class="boxs"></div>
-  </body>
-  <body>
-    <div class="Handwriting"></div>
-    <script src="script.js"></script>
+    <script>
+      function validateCredentials() {
+        var emailInput = document.getElementById('emailInput');
+        var passwordInput = document.getElementById('passwordInput');
+        var email = emailInput.value;
+        var password = passwordInput.value;
+
+        if (!email || !isValidEmail(email)) {
+          alert('Пожалуйста, введите корректный адрес электронной почты.');
+        } else if (!password || password.length < 8) {
+          alert('Пожалуйста, введите пароль, содержащий не менее 8 символов.');
+        } else {
+          // Если почта и пароль валидны, можно выполнять дальнейшие действия, например, отправку данных на сервер
+        }
+      }
+
+      function isValidEmail(email) {
+        var emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+        return emailPattern.test(email);
+      }
+    </script>
   </body>
 </html>
-

@@ -74,7 +74,7 @@ input{
   text-align: center;
   line-height: 53px;
   cursor: pointer;
-  margin-bottom: 34px;
+  margin-bottom: 40px;
 }
 .button:hover {
   background-color: #6577f1;
@@ -111,7 +111,7 @@ a.button{
   color: rgba(0, 0, 0, 0.61);
   margin-left: 169px;
   z-index: 3;
-  margin-top: -400px;
+  margin-top: -347px;
   font-family: Roboto;
   font-size: 18px;
   font-style: normal;
@@ -122,7 +122,7 @@ a.button{
   position: relative;
   margin-left: 499px;
   z-index: 3;
-  margin-top: -23px;
+  top: -33px;
   color: rgba(0, 0, 0, 0.61);
   font-family: Roboto;
   font-size: 18px;
@@ -135,6 +135,7 @@ a.button{
   margin-left: 89px;
   z-index: 3;
   margin-top: 195px;
+  top: -115px;
   color: rgba(0, 0, 0, 0.61);
   font-family: Roboto;
   font-size: 18px;
@@ -182,8 +183,7 @@ a.button{
     position: relative;
     margin-left: 140px;
     z-index: 3;
-    
-    top: -258px;
+    top: -303px;
     width: 13px;
     height: 13px;
     flex-shrink: 0;
@@ -242,7 +242,7 @@ a.button{
     position: relative;
     margin-left: 645px;
     z-index: 1;
-        top: -938px;
+    top: -1081px;
     width: 778px;
     height: 1024px;
     flex-shrink: 0;
@@ -250,17 +250,17 @@ a.button{
   }
    
   .form-field.active{
-        weight:100px;
+        weight: 100px;
         height: 100px;
         background: #000;
   }
   .cap{
     display: flex;
     position: relative;
-    top: -217px;
+    top: -939px;
     cursor: pointer;
     gap: 53px;
-    top: -875px;
+    top: -1004px;
     left: 860px;
   }
  
@@ -281,14 +281,16 @@ a.button{
     background: #7d7d7d;
   }
   .social{
-        display: flex;
-        gap: 75px;
-        position: relative;
-        top: -22px;
-        left: 280px;
+      display: flex;
+      gap: 75px;
+      position: relative;
+      top: -150px;
+      left: 280px;
   }
+  .validateEmail {
+      margin-top: -30px;
 
-  .validation {
-        margin-top: -30px;
-
+  }
+  .form__warning{
+    margin-top: -30px;
   }
