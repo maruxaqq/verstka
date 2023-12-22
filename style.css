@@ -16,6 +16,7 @@ input{
   background: #FFF;
   padding-left: 25px;
 }
+
 .circle{
   position: absolute;
   z-index: 1;
@@ -143,9 +144,9 @@ a.button{
 }
 .Facebook{
   position: relative;
-  margin-left: 300px;
+
   z-index: 3;
-  margin-top: -23px;
+
   color: #3751FE;
   font-family: Roboto;
   font-size: 18px;
@@ -155,9 +156,9 @@ a.button{
 }
 .LinkedIn{
   position: relative;
-  margin-left: 448px;
+
   z-index: 3;
-  margin-top: -23px;
+
   color: #3751FE;
   font-family: Roboto;
   font-size: 18px;
@@ -167,9 +168,9 @@ a.button{
 }
 .Google{
   position: relative;
-  margin-left: 580px;
+
   z-index: 3;
-  margin-top: -23px;
+
   color: #3751FE;
   font-family: Roboto;
   font-size: 18px;
@@ -181,7 +182,8 @@ a.button{
     position: relative;
     margin-left: 140px;
     z-index: 3;
-    margin-top: -230px;
+    
+    top: -258px;
     width: 13px;
     height: 13px;
     flex-shrink: 0;
@@ -190,9 +192,9 @@ a.button{
   }
   .Home{
     position: relative;
-    margin-left: 850px;
+
     z-index: 3;
-    margin-top: -630px;
+
     color: #000;
     font-family: Roboto;
     font-size: 24px;
@@ -202,9 +204,9 @@ a.button{
   }
   .About{
     position: relative;
-    margin-left: 960px;
+
     z-index: 3;
-    margin-top: -29px;
+
     color: #000;
     font-family: Roboto;
     font-size: 24px;
@@ -214,9 +216,9 @@ a.button{
   }
   .Blog{
     position: relative;
-    margin-left: 1090px;
+
     z-index: 3;
-    margin-top: -27px;
+ 
     color: #000;
     font-family: Roboto;
     font-size: 24px;
@@ -226,9 +228,9 @@ a.button{
   }
   .Pricing{
     position: relative;
-    margin-left: 1180px;
+
     z-index: 3;
-    margin-top: -27px;
+
     color: #000;
     font-family: Roboto;
     font-size: 24px;
@@ -240,18 +242,53 @@ a.button{
     position: relative;
     margin-left: 645px;
     z-index: 1;
-    margin-top: -60px;
+        top: -938px;
     width: 778px;
     height: 1024px;
     flex-shrink: 0;
     background: rgba(229, 229, 229, 0.41);    
   }
-.Handwriting {
-  position: relative;
-  margin-left: 847px;
-  z-index: 1;
-  margin-top: -969px;
-  width: 69px;
-  height: 3px;
-  background: #0C31F1;
-}
+   
+  .form-field.active{
+        weight:100px;
+        height: 100px;
+        background: #000;
+  }
+  .cap{
+    display: flex;
+    position: relative;
+    top: -217px;
+    cursor: pointer;
+    gap: 53px;
+    top: -875px;
+    left: 860px;
+  }
+ 
+  .Pricing:hover{
+    background: #7d7d7d;
+  }
+
+    .About:hover{
+    background: #7d7d7d;
+   
+  }
+
+    .Blog:hover{
+    background: #7d7d7d;
+  }
+
+    .Home:hover{
+    background: #7d7d7d;
+  }
+  .social{
+        display: flex;
+        gap: 75px;
+        position: relative;
+        top: -22px;
+        left: 280px;
+  }
+
+  .validation {
+        margin-top: -30px;
+
+  }
